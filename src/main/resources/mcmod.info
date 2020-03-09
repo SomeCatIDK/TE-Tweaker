@@ -1,0 +1,16 @@
+[
+{
+  "modid": "tetweaker",
+  "name": "Thermal Expansion Tweaker",
+  "description": "A mod that adds CraftTweaker 3 support to the tiered-crafting branch of Thermal Expansion.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/SomeCatIDK/TE-Tweaker",
+  "updateUrl": "",
+  "authorList": ["SomeCatIDK"],
+  "credits": "Team COFH and the creators of MineTweaker/CraftTweaker.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
