@@ -20,11 +20,11 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
     - name: Create libs folder
       run: mkdir libs
     - name: Download custom ThermalExpansion library
       run: curl -L "https://drive.google.com/u/0/uc?id=1GvcJSurrs6eyRaobQLGmI46dpexyTBVf&export=download" --output libs/ThermalExpansion-1.12.2-5.5.6.1-universal.jar
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
